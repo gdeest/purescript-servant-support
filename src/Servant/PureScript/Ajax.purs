@@ -7,7 +7,8 @@ module Servant.PureScript.Ajax where
 
 import Prelude
 
-import Affjax (Request, Response, request, printResponseFormatError)
+import Affjax (Request, Response, request)
+import Affjax.ResponseFormat (printResponseFormatError)
 import Affjax as Affjax
 import Affjax.RequestHeader (RequestHeader(..))
 import Affjax.ResponseFormat as ResponseFormat
